@@ -1,0 +1,17 @@
+@import "../../../assets/new-css/components.scss";
+
+.tip {
+  display: inline-block;
+  vertical-align: top;
+  .tip-content-w {
+    position: absolute;
+    margin-left: 14px;
+    margin-top: -25px;
+  }
+  .hidden {
+    display: none;
+  }
+  .icon {
+    display: inline-block;
+  }
+}
